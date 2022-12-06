@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class QuestionAnswer extends StatefulWidget {
   const QuestionAnswer({Key? key}) : super(key: key);
@@ -38,60 +39,73 @@ class _QuestionAnswerState extends State<QuestionAnswer> {
                   ),
                   child: const Icon(
                     Icons.arrow_back,
-                    size: 50,
+                    size: 35,
+                    color: Colors.white,
                   ),
                 ),
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(left: 20, right: 20, top: 50),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Align(
-                  alignment: AlignmentDirectional.topStart,
-                  child: Text(
-                    "Ques-",
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
-                  ),
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Spacer(),
+              Padding(
+                padding: const EdgeInsets.only(top: 50),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Align(
+                      alignment: AlignmentDirectional.center,
+                      child: Text(
+                        "Que:-",
+                        style: GoogleFonts.montserrat(
+                            fontSize: 30, fontWeight: FontWeight.w700),
+                      ),
+                    ),
+                    Text(
+                      textAlign: TextAlign.center,
+                      "I am a odd number take away a letter and I become even.\n What number I am?",
+                      maxLines: 1000,
+                      style: GoogleFonts.montserrat(
+                          fontSize: 30, fontWeight: FontWeight.w500),
+                    )
+                  ],
                 ),
-                SizedBox(
-                  width: MediaQuery.of(context).size.width - 100,
-                  child: const Text(
-                    " wedirfdcheroiwfbcm fdxciewsdfc fdciwksdfc x gfdiweoafdc gefidcdf lkrhfrciheafcheroifcb fnc jwfgcuiwef fcn nirenfcdshifcwde cnesfbcerj cvk herifcs foicho wdiufgcer ciuewrfbchejrfc  nir3wefchesdbfc erifbc v;rejhf;ocherf vcmniovc  iwevc ibervc  idhfoicirwebv oierbfcv  irehfickjasf cebrfc erwfciorbsvc iwaerhfrdiowebfc ieqrwfbcvjearhwfvisdbgvf dfs vierbvkjearkhbgvcear.kifhcbera;jvbc erfvbc;jesr veiargfhriowebvc e;rigbvreidfb  ",
-                    maxLines: 1000,
-                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
-                  ),
-                )
-              ],
-            ),
+              ),
+              const Spacer(),
+            ],
           ),
           if (answer == true)
-            Padding(
-              padding: const EdgeInsets.only(left: 20, right: 20, top: 50),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const Align(
-                    alignment: AlignmentDirectional.topStart,
-                    child: Text(
-                      "Answer-",
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
-                    ),
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const Spacer(),
+                Padding(
+                  padding: const EdgeInsets.only(top: 50),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Align(
+                        alignment: AlignmentDirectional.center,
+                        child: Text(
+                          "Ans:-",
+                          style: GoogleFonts.montserrat(
+                              fontSize: 30, fontWeight: FontWeight.w700),
+                        ),
+                      ),
+                      Text(
+                        textAlign: TextAlign.center,
+                        "Seven",
+                        maxLines: 1000,
+                        style: GoogleFonts.montserrat(
+                            fontSize: 30, fontWeight: FontWeight.w500),
+                      )
+                    ],
                   ),
-                  SizedBox(
-                    width: MediaQuery.of(context).size.width - 120,
-                    child: const Text(
-                      " wedirfdcheroiwfbcm fdxciewsdfc fdciwksdfc x gfdiweoafdc gefidcdf lkrhfrciheafcheroifcb fnc jwfgcuiwef fcn nirenfcdshifcwde cnesfbcerj cvk herifcs foicho wdiufgcer ciuewrfbchejrfc  nir3wefchesdbfc erifbc v;rejhf;ocherf vcmniovc  iwevc ibervc  idhfoicirwebv oierbfcv  irehfickjasf cebrfc erwfciorbsvc iwaerhfrdiowebfc ieqrwfbcvjearhwfvisdbgvf dfs vierbvkjearkhbgvcear.kifhcbera;jvbc erfvbc;jesr veiargfhriowebvc e;rigbvreidfb  ",
-                      maxLines: 1000,
-                      style:
-                          TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
-                    ),
-                  )
-                ],
-              ),
+                ),
+                const Spacer(),
+              ],
             ),
           if (answer == false)
             Padding(
@@ -104,7 +118,7 @@ class _QuestionAnswerState extends State<QuestionAnswer> {
                   },
                   child: Container(
                     height: 45,
-                    width: 120,
+                    width: 140,
                     decoration: BoxDecoration(
                       gradient: const LinearGradient(
                         colors: [
@@ -114,10 +128,11 @@ class _QuestionAnswerState extends State<QuestionAnswer> {
                       ),
                       borderRadius: BorderRadius.circular(30),
                     ),
-                    child: const Center(
+                    child: Center(
                         child: Text(
                       "Answer",
-                      style: TextStyle(fontWeight: FontWeight.bold),
+                      style: GoogleFonts.montserrat(
+                          fontSize: 24, fontWeight: FontWeight.w500),
                     )),
                   ),
                 ),
@@ -143,10 +158,11 @@ class _QuestionAnswerState extends State<QuestionAnswer> {
                       ),
                       borderRadius: BorderRadius.circular(30),
                     ),
-                    child: const Center(
+                    child: Center(
                         child: Text(
                       "back",
-                      style: TextStyle(fontWeight: FontWeight.bold),
+                      style: GoogleFonts.montserrat(
+                          fontSize: 24, fontWeight: FontWeight.w500),
                     )),
                   ),
                 ),

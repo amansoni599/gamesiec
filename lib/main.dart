@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gamesiec/question.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(MyApp());
@@ -52,16 +53,28 @@ class _TableExample extends State<MyApp> {
                                     fontWeight: FontWeight.w400)))),
                     Container(
                         constraints: const BoxConstraints(minHeight: 80),
-                        child: const Center(
-                            child: Text('', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                     Container(
                         constraints: const BoxConstraints(minHeight: 80),
-                        child: const Center(
-                            child: Text('', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                     Container(
                         constraints: const BoxConstraints(minHeight: 80),
-                        child: const Center(
-                            child: Text('', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                   ]),
               TableRow(children: [
                 InkWell(
@@ -72,34 +85,51 @@ class _TableExample extends State<MyApp> {
                       constraints: const BoxConstraints(
                         minHeight: 50,
                       ),
-                      child: const Center(
-                          child:
-                              Text('100', style: TextStyle(fontSize: 20.0)))),
+                      child: Center(
+                          child: Text(
+                        '100',
+                        style: GoogleFonts.montserrat(
+                            fontSize: 20, fontWeight: FontWeight.w700),
+                      ))),
                 ),
                 Container(
                     constraints: const BoxConstraints(
                       minHeight: 50,
                     ),
-                    child: const Center(
-                        child: Text('100', style: TextStyle(fontSize: 20.0)))),
+                    child: Center(
+                        child: Text('100',
+                            style: GoogleFonts.montserrat(
+                                fontSize: 20, fontWeight: FontWeight.w700)))),
                 Container(
                     constraints: const BoxConstraints(
                       minHeight: 50,
                     ),
-                    child: const Center(
-                        child: Text('100', style: TextStyle(fontSize: 20.0)))),
+                    child: Center(
+                        child: Text(
+                      '100',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 20, fontWeight: FontWeight.w700),
+                    ))),
                 Container(
                     constraints: const BoxConstraints(
                       minHeight: 50,
                     ),
-                    child: const Center(
-                        child: Text('100', style: TextStyle(fontSize: 20.0)))),
+                    child: Center(
+                        child: Text(
+                      '100',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 20, fontWeight: FontWeight.w700),
+                    ))),
                 Container(
                     constraints: const BoxConstraints(
                       minHeight: 50,
                     ),
-                    child: const Center(
-                        child: Text('100', style: TextStyle(fontSize: 20.0)))),
+                    child: Center(
+                        child: Text(
+                      '100',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 20, fontWeight: FontWeight.w700),
+                    ))),
               ]),
               TableRow(
                   decoration: const BoxDecoration(
@@ -110,69 +140,104 @@ class _TableExample extends State<MyApp> {
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('100', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '100',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                     Container(
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('100', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '100',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                     Container(
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('100', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '100',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                     Container(
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('100', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '100',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                     Container(
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('100', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '100',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                   ]),
               TableRow(children: [
                 Container(
                     constraints: const BoxConstraints(
                       minHeight: 50,
                     ),
-                    child: const Center(
-                        child: Text('300', style: TextStyle(fontSize: 20.0)))),
+                    child: Center(
+                        child: Text(
+                      '300',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 20, fontWeight: FontWeight.w700),
+                    ))),
                 Container(
                     constraints: const BoxConstraints(
                       minHeight: 50,
                     ),
-                    child: const Center(
-                        child: Text('300', style: TextStyle(fontSize: 20.0)))),
+                    child: Center(
+                        child: Text(
+                      '300',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 20, fontWeight: FontWeight.w700),
+                    ))),
                 Container(
                     constraints: const BoxConstraints(
                       minHeight: 50,
                     ),
-                    child: const Center(
-                        child: Text('300', style: TextStyle(fontSize: 20.0)))),
+                    child: Center(
+                        child: Text(
+                      '300',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 20, fontWeight: FontWeight.w700),
+                    ))),
                 Container(
                     constraints: const BoxConstraints(
                       minHeight: 50,
                     ),
-                    child: const Center(
-                        child: Text('300', style: TextStyle(fontSize: 20.0)))),
+                    child: Center(
+                        child: Text(
+                      '300',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 20, fontWeight: FontWeight.w700),
+                    ))),
                 Container(
                     constraints: const BoxConstraints(
                       minHeight: 50,
                     ),
-                    child: const Center(
-                        child: Text('300', style: TextStyle(fontSize: 20.0)))),
+                    child: Center(
+                        child: Text(
+                      '300',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 20, fontWeight: FontWeight.w700),
+                    ))),
               ]),
               TableRow(
                   decoration: const BoxDecoration(
@@ -183,69 +248,104 @@ class _TableExample extends State<MyApp> {
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('300', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '300',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                     Container(
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('300', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '300',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                     Container(
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('300', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '300',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                     Container(
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('300', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '300',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                     Container(
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('300', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '300',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                   ]),
               TableRow(children: [
                 Container(
                     constraints: const BoxConstraints(
                       minHeight: 50,
                     ),
-                    child: const Center(
-                        child: Text('500', style: TextStyle(fontSize: 20.0)))),
+                    child: Center(
+                        child: Text(
+                      '500',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 20, fontWeight: FontWeight.w700),
+                    ))),
                 Container(
                     constraints: const BoxConstraints(
                       minHeight: 50,
                     ),
-                    child: const Center(
-                        child: Text('500', style: TextStyle(fontSize: 20.0)))),
+                    child: Center(
+                        child: Text(
+                      '500',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 20, fontWeight: FontWeight.w700),
+                    ))),
                 Container(
                     constraints: const BoxConstraints(
                       minHeight: 50,
                     ),
-                    child: const Center(
-                        child: Text('500', style: TextStyle(fontSize: 20.0)))),
+                    child: Center(
+                        child: Text(
+                      '500',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 20, fontWeight: FontWeight.w700),
+                    ))),
                 Container(
                     constraints: const BoxConstraints(
                       minHeight: 50,
                     ),
-                    child: const Center(
-                        child: Text('500', style: TextStyle(fontSize: 20.0)))),
+                    child: Center(
+                        child: Text(
+                      '500',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 20, fontWeight: FontWeight.w700),
+                    ))),
                 Container(
                     constraints: const BoxConstraints(
                       minHeight: 50,
                     ),
-                    child: const Center(
-                        child: Text('500', style: TextStyle(fontSize: 20.0)))),
+                    child: Center(
+                        child: Text(
+                      '500',
+                      style: GoogleFonts.montserrat(
+                          fontSize: 20, fontWeight: FontWeight.w700),
+                    ))),
               ]),
               TableRow(
                   decoration: const BoxDecoration(
@@ -256,37 +356,52 @@ class _TableExample extends State<MyApp> {
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('500', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '500',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                     Container(
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('500', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '500',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                     Container(
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('500', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '500',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                     Container(
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('500', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '500',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                     Container(
                         constraints: const BoxConstraints(
                           minHeight: 50,
                         ),
-                        child: const Center(
-                            child:
-                                Text('500', style: TextStyle(fontSize: 20.0)))),
+                        child: Center(
+                            child: Text(
+                          '500',
+                          style: GoogleFonts.montserrat(
+                              fontSize: 20, fontWeight: FontWeight.w700),
+                        ))),
                   ]),
             ],
           ),
