@@ -3,7 +3,10 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class QuestionAnswer extends StatefulWidget {
-  const QuestionAnswer({Key? key}) : super(key: key);
+  String? question;
+  String? answer;
+  QuestionAnswer({Key? key, required this.question, required this.answer})
+      : super(key: key);
 
   @override
   State<QuestionAnswer> createState() => _QuestionAnswerState();
@@ -63,12 +66,15 @@ class _QuestionAnswerState extends State<QuestionAnswer> {
                             fontSize: 30, fontWeight: FontWeight.w700),
                       ),
                     ),
-                    Text(
-                      textAlign: TextAlign.center,
-                      "I am a odd number take away a letter and I become even.\n What number I am?",
-                      maxLines: 1000,
-                      style: GoogleFonts.montserrat(
-                          fontSize: 30, fontWeight: FontWeight.w500),
+                    SizedBox(
+                      width: MediaQuery.of(context).size.width - 320,
+                      child: Text(
+                        textAlign: TextAlign.center,
+                        widget.question!,
+                        maxLines: 1000,
+                        style: GoogleFonts.montserrat(
+                            fontSize: 30, fontWeight: FontWeight.w500),
+                      ),
                     )
                   ],
                 ),
@@ -96,7 +102,7 @@ class _QuestionAnswerState extends State<QuestionAnswer> {
                       ),
                       Text(
                         textAlign: TextAlign.center,
-                        "Seven",
+                        widget.answer ?? "",
                         maxLines: 1000,
                         style: GoogleFonts.montserrat(
                             fontSize: 30, fontWeight: FontWeight.w500),
