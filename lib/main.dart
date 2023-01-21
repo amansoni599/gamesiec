@@ -46,14 +46,14 @@ class _TableExample extends State<MyApp> {
                             child: Text('Office Trivia ',
                                 style: TextStyle(
                                     fontSize: 20.0,
-                                    fontWeight: FontWeight.w400)))),
+                                    fontWeight: FontWeight.w700)))),
                     Container(
                         constraints: const BoxConstraints(minHeight: 80),
                         child: const Center(
                             child: Text('Master of Phrases ',
                                 style: TextStyle(
                                     fontSize: 20.0,
-                                    fontWeight: FontWeight.w400)))),
+                                    fontWeight: FontWeight.w700)))),
                     Container(
                         constraints: const BoxConstraints(minHeight: 80),
                         child: Center(
@@ -66,7 +66,7 @@ class _TableExample extends State<MyApp> {
                         constraints: const BoxConstraints(minHeight: 80),
                         child: Center(
                             child: Text(
-                          'Riddles',
+                          'Countries',
                           style: GoogleFonts.montserrat(
                               fontSize: 20, fontWeight: FontWeight.w700),
                         ))),
@@ -129,7 +129,7 @@ class _TableExample extends State<MyApp> {
                   onTap: () {
                     Get.to(QuestionAnswer(
                       question: QuestionList.question100_14,
-                      answer: "DoorBell",
+                      answer: "Kanchenjunga",
                     ));
                   },
                   child: Container(
@@ -208,7 +208,7 @@ class _TableExample extends State<MyApp> {
                       onTap: () {
                         Get.to(QuestionAnswer(
                           question: QuestionList.question100_24,
-                          answer: "Map",
+                          answer: "Euro",
                         ));
                       },
                       child: Container(
@@ -224,11 +224,13 @@ class _TableExample extends State<MyApp> {
                     ),
                   ]),
               // 300_2
+
               TableRow(children: [
                 InkWell(
                   onTap: () {
                     Get.to(QuestionAnswerImage(
-                        questionImage: "assets/annu.png", answer: "Annu"));
+                        questionImage: "assets/induarora.png",
+                        answer: "Ms. Indu Sharma"));
                   },
                   child: Container(
                       constraints: const BoxConstraints(
@@ -280,7 +282,7 @@ class _TableExample extends State<MyApp> {
                   onTap: () {
                     Get.to(QuestionAnswer(
                       question: QuestionList.question100_300_14,
-                      answer: "Heroine",
+                      answer: "10 Canadian provinces",
                     ));
                   },
                   child: Container(
@@ -304,7 +306,8 @@ class _TableExample extends State<MyApp> {
                     InkWell(
                       onTap: () {
                         Get.to(QuestionAnswerImage(
-                            questionImage: "shivangi.png", answer: "Shivangi"));
+                            questionImage: "Pushpendra.png",
+                            answer: "Mr. Pushpendra Yadav"));
                       },
                       child: Container(
                           constraints: const BoxConstraints(
@@ -358,7 +361,7 @@ class _TableExample extends State<MyApp> {
                       onTap: () {
                         Get.to(QuestionAnswer(
                           question: QuestionList.question100_300_24,
-                          answer: "Post Office",
+                          answer: "Canada and Mexico",
                         ));
                       },
                       child: Container(
@@ -381,8 +384,8 @@ class _TableExample extends State<MyApp> {
                     InkWell(
                       onTap: () {
                         Get.to(QuestionAnswerImage(
-                          questionImage: "assets/tabassum.png",
-                          answer: "Tabassum",
+                          questionImage: "shena.jpeg",
+                          answer: "Ms. Sneha shah",
                         ));
                       },
                       child: Container(
@@ -435,10 +438,9 @@ class _TableExample extends State<MyApp> {
                     InkWell(
                       onTap: () {
                         Get.to(QuestionAnswer(
-                            question:
-                                "Ram’s mother’s sister, Deepika has two brothers-Anuj and Rahul who live in separate houses.  Rahul’s son, Aman is married to Priya who is the daughter in law of Seema. Anuj’s wife has gone to the temple with her mother in law , Jaya and  her neighbour Gauri. They meet Rahul’s wife in the temple. Gauri is the mother in law of Aman and has to go to a wedding so leaves early from the temple. The rest of them decide to go to Deepika’s house from the temple along with Akshay who is Anuj’s son. How is Aman related to Ram’s mother? How is Jaya related to Deepika?",
+                            question: QuestionList.question100_500_14,
                             answer:
-                                "Ram’s mother is Aman’s Paternal Aunt\nJaya is Deepika’s mother "));
+                                "1. Assam- Dispur \n2. Chattisgarh- Raipur \n3. Karnataka- Bangalore \n4. Nagaland- Kohima\n5. Madhya Pradesh - Bhopal"));
                       },
                       child: Container(
                           constraints: const BoxConstraints(

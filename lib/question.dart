@@ -100,12 +100,15 @@ class _QuestionAnswerState extends State<QuestionAnswer> {
                               fontSize: 30, fontWeight: FontWeight.w700),
                         ),
                       ),
-                      Text(
-                        textAlign: TextAlign.center,
-                        widget.answer ?? "",
-                        maxLines: 1000,
-                        style: GoogleFonts.montserrat(
-                            fontSize: 30, fontWeight: FontWeight.w500),
+                      SizedBox(
+                        width: MediaQuery.of(context).size.width - 350,
+                        child: Text(
+                          textAlign: TextAlign.center,
+                          widget.answer ?? "",
+                          maxLines: 1000,
+                          style: GoogleFonts.montserrat(
+                              fontSize: 30, fontWeight: FontWeight.w500),
+                        ),
                       )
                     ],
                   ),
