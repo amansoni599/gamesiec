@@ -440,7 +440,7 @@ class _TableExample extends State<MyApp> {
                         Get.to(QuestionAnswer(
                             question: QuestionList.question100_500_14,
                             answer:
-                                "1. Assam- Dispur \n2. Chattisgarh- Raipur \n3. Karnataka- Bangalore \n4. Nagaland- Kohima\n5. Madhya Pradesh - Bhopal"));
+                                " 28States and 8 Union territories\n 1. Assam- Dispur \n2. Chattisgarh- Raipur \n3. Karnataka- Bangalore \n4. Nagaland- Kohima\n5. Madhya Pradesh - Bhopal"));
                       },
                       child: Container(
                           constraints: const BoxConstraints(
