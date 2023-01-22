@@ -306,7 +306,7 @@ class _TableExample extends State<MyApp> {
                     InkWell(
                       onTap: () {
                         Get.to(QuestionAnswerImage(
-                            questionImage: "Pushpendra.png",
+                            questionImage: "assets/Pushpendra.png",
                             answer: "Mr. Pushpendra Yadav"));
                       },
                       child: Container(
@@ -384,7 +384,7 @@ class _TableExample extends State<MyApp> {
                     InkWell(
                       onTap: () {
                         Get.to(QuestionAnswerImage(
-                          questionImage: "shena.jpeg",
+                          questionImage: "assets/shena.jpeg",
                           answer: "Ms. Sneha shah",
                         ));
                       },
