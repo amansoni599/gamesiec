@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gamesiec/question.dart';
 import 'package:gamesiec/questionList.dart';
 import 'package:gamesiec/questionimage.dart';
+import 'package:gamesiec/questionimagenetwork.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -383,7 +384,8 @@ class _TableExample extends State<MyApp> {
                   children: [
                     InkWell(
                       onTap: () {
-                        Get.to(QuestionAnswerImage(
+                        Get.to(QuestionAnswerImageNetwork(
+                          //shena image link
                           questionImage: "assets/shena.jpeg",
                           answer: "Ms. Sneha shah",
                         ));
